@@ -1,0 +1,70 @@
+<form method="post" action="https://gophp.w3spaces.com/contactA.php " class="form">
+<h3 class="quiz">Delany's Quiz:</h3>
+  <fieldset>
+     <legend>What is your name?</legend>
+	<label for="fname">First name:</label><br>
+  		<input type="text" id="fname" name="name"><br>
+  		<label for="lname">Last name:</label><br>
+  		<input type="text" id="lname" name="lname">
+    </fieldset>
+    <fieldset>
+     <legend>What is Delany's favorite TV show?</legend>
+   		<input list="TVShows">
+ 		<datalist id="TVShows">
+          <option value="Doctor Who">
+          <option value="People of Earth">
+          <option value="How I Met Your Mother">
+          <option value="Adventure Time">
+          <option value="Game of Thrones">
+          <option value="New Girl">
+          <option value="Arrested Development">
+  		</datalist>
+       </fieldset>
+    <fieldset>
+     <legend>What Schools did Delany Attend?</legend>
+     <div class="checkbox-row">
+        <input type="checkbox" id="IAA" name="IAA" value="IAA">
+        <label for="IAA"> Idyllwild Arts Academy</label><br>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="THS" name="THS" value="HS">
+        <label for="THS">Templeton High School</label><br>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="CP" name="CP" value="CP">
+        <label for="CP">Cal Poly</label>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="Cuesta" name="Cuesta" value="Cuesta">
+        <label for="Cuesta">Cuesta</label>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="TMCC" name="TMCC" value="TMCC">
+        <label for="TMCC">Truckee Meadows Community College</label>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="SNU" name="SNU" value="SNU">
+        <label for="SNU">Sierra Nevada University</label>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="UNRLT" name="UNRLT" value="UNRLT">
+        <label for="UNRLT">University of Nevada Reno at Lake Tahoe</label>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="SJSU" name="SJSU" value="SJSU">
+        <label for="SJSU">San Jose State University</label>
+      </div>
+  </fieldset>
+  <fieldset>
+     <legend>What Color is Delany's cat Penny?</legend>
+     <input type="color" id="PennyColor" name="PennyColor"> and <input type="color" id="PennyColor2" name="PennyColor2">
+  </fieldset>
+  <fieldset>
+     <legend>Show me a picture of your pet!</legend>
+     <input type="file" id="mycat" name="mycat" accept="image/*">
+  </fieldset>
+  <fieldset>
+  <input type="submit">
+  <input type="reset" value="Reset">
+  </fieldset>
+</form>
