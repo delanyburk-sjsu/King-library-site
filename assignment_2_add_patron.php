@@ -15,7 +15,7 @@
 	$email = $_POST['email'];
 	$cities = $_POST['cities'];
 
-	$fullname = "$fname $lname";
+	$fullname = "$firstname $lastname";
 
 	print "<p>Name: $fullname </p>";
 	print "<p>Email: $email</p>";
