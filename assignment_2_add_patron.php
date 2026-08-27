@@ -10,12 +10,12 @@
 <h3>Thank You For Registering!</h3>
 
 <?php
-	$firstname = $_POST['firstname'];
-	$lastname = $_POST['lastname'];
+	$fname = $_POST['fname'];
+	$lname = $_POST['lname'];
 	$email = $_POST['email'];
 	$cities = $_POST['cities'];
 
-	$fullname = "$firstname $lastname";
+	$fullname = "$fname $lname";
 
 	print "<p>Name: $fullname </p>";
 	print "<p>Email: $email</p>";
