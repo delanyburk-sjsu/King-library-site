@@ -1,8 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 <html>
 <head>
-	<title>303 HTML Forms</title>
-	<link rel="stylesheet" type="text/css" href="css/basic.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
@@ -10,15 +10,17 @@
 <h3>Thank You For Registering!</h3>
 
 <?php
-	$name = $_POST['fname''lname'];
-	print "<p>Name: $name</p>";
-  $email = $_POST['email'];
-  print "<p>Email: $email</p>
-  $cities = $_POST['cities'];
-  print "<p>city: $cities</p>
-?>
+	$firstname = $_POST['firstname'];
+	$lastname = $_POST['lastname'];
+	$email = $_POST['email'];
+	$cities = $_POST['cities'];
 
-<p>You've just written your first PHP program!</p>
+	$fullname = "$firstname $lastname";
+
+	print "<p>Name: $fullname </p>";
+	print "<p>Email: $email</p>";
+	print "<p>City: $cities </p>";
+?>
 
 </body>
 </html>
