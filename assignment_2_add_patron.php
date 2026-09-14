@@ -1,11 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
+<!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="asgn2_register_Burk.css" />
 </head>
 
 <body>
+    <img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" >
 
 <h3>Thank You For Registering!</h3>
 
